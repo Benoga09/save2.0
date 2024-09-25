@@ -1,13 +1,20 @@
-let nota1 = 7.0;
-let nota2 = 7.0;
-let nota3 = 0.0;
-let media = (nota1 + nota2 + nota3) / 3;
-if (media >= 7) {
-console.log("Aluno aprovado com média:" + media);
+let idade = 15
+if (idade <5) { 
+    console.log('Idade abaixo do mínimo')
 }
-else if (media >= 5 && media < 7){
-console.log("Aluno em recuperação com média: " + media);
+else if (idade >= 5 , idade <=7 ) {
+console.log('Infantil A')
 }
-else {
-    console.log("Aluno reprovado com média: " + media);
+else if (idade >= 8,idade <= 10) {
+console.log('Infantil B')
 }
+else if  (idade >= 11, idade <= 13) {
+console.log('juvenil A')
+}
+else if (idade >= 14, idade <= 17) {
+console.log('Juvenil B')
+}
+else if (idade >= 18) {
+console.log('Adulto')
+}
+
